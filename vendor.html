@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>wedding planner Agency</title>
+    <link rel="stylesheet" href="stylingh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+     * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<h2>Vendors Planner</h2>
+<p>Change image every 2 seconds:</p>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://media.gettyimages.com/photos/newlyweds-cutting-wedding-cake-picture-id1172231356?s=612x612" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://www.wallpapertip.com/wmimgs/180-1807866_wallpapers-indian-wedding-hd.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://lh3.googleusercontent.com/UHN0tzHmGTGZuEv7viQzJ4KtdtUa4e3BSYXs_ZhGyASnzidiiXWYIWTM-NWJ_GhzW9kIGCphRJKkKBkX6z6bRZyPCrE=w640-h400-e365-rj-sc0x00ffffff" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/655/034/new_large/shades3.jpg?1547020666" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+</div>
+<br>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</style>
+        <header>
+          <h1><a href="#" class="logo"Vendor Planner>Vendor Planner</a></h1>
+          <div class="topnav">
+              </div>
+              </header>
+              </section>
+              <section class="step-container">
+                <div class="step">
+                  <h1>Vendor Planner</h1>
+              </section>
+       
+            <!--vendor section start--->
+            <section class="vendor" id="vendor">
+              <div class="heading">
+                
+                <h2 style="text-align:center" style="color:rgb(0, 255, 115)"><span>Top Wedding Vendors<span></h2>
+                </div>
+                <div class="box-container">
+                  <div class="box">
+                    <img src="https://www.dulhaniyaa.com/assets/shaadistylists/images/slider1.jpg"  alt="" width="100%">
+                <div class="info">
+                  <h1>Dressing</h1>
+                  <p>A wedding planning and management of a client's wedding. Weddings are significant events</p>
+                  <div><a href="https://www.google.com/search?q=wedding+dresses&sxsrf=APq-WBtcRjDBr3exqTeVyuD9smDH6zJiwg:1643704726756&tbm=isch&source=iu&ictx=1&vet=1&fir=dWmuUHvogzsi6M%252C9aZLiH5ENr331M%252C_%253BFbiMYuTUGXpldM%252CEe8i9FmszZmmLM%252C_%253BpaMs9UvD4f0iaM%252CdoMQq9eKZXbV1M%252C_%253BDR24MzL2IaenfM%252CjnkW0gdAFV2LtM%252C_%253BTLaINwVC3hIe0M%252CfIA79HwmfnBEIM%252C_%253BkQ5X6zJJOFbN-M%252CEe8i9FmszZmmLM%252C_%253Br4iAAp7RekPKGM%252Cx--liZi1J__cLM%252C_%253BqG6Jt900TWiwhM%252C8StFo0yJv5FGkM%252C_%253BPLtGeoerHVnhMM%252CjEnYPSY-D3B8OM%252C_%253BkUG18E_zC-RhpM%252CetpikjzLKG0N7M%252C_%253BKRVIRp-2wjM91M%252C27Y9tHpbGOaFvM%252C_%253BAGEj0UeGPT1YCM%252Cg_9u27TFNNFsMM%252C_%253BzI9z88mFoLfXTM%252CwG9sp7XBL083RM%252C_%253BmQdDoDkdRumkUM%252CEe8i9FmszZmmLM%252C_%253BnBs43Gh_9wQ6vM%252CN1l86-zycQnXSM%252C_%253BNGh0p_omkhop8M%252C4_wTgpKPaJILYM%252C_%253BAkkShyB3tzKGiM%252C9aZLiH5ENr331M%252C_%253BCU2ZRcQCFZhAkM%252CfIA79HwmfnBEIM%252C_%253Bwnr5HK4mqIo8yM%252C_lPgO-6ssFlBnM%252C_&usg=AI4_-kTCa0pYji1Yg-EhPF_wse-lO4HSYg&sa=X&sqi=2&ved=2ahUKEwjs-umijd71AhVAIrkGHYioDvAQ9QF6BAgbEAE#imgrc=DR24MzL2IaenfM"><input type="submit" value="Learn More"></a></div>
+                 </div>
+              </div>
+              <div class="box">
+                <img src="https://cosmopolitanevents.com.au/wp-content/uploads/2020/06/bride-and-groom-cutting-a-huge-5-layered-wedding-cake-3018810-1024x683.jpg"  alt="" width="100%">
+            <div class="info">
+              <h1>Wedding Cake</h1>
+              <p>A wedding planning and management of a client's wedding. Weddings are significant events</p>
+              <a href="https://www.google.com/search?q=wedding+cake&sa=X&hl=en&sxsrf=APq-WBswhnrOgBeJtVhEqx4xGFQnmApoqw:1643706078756&tbm=isch&source=iu&ictx=1&vet=1&fir=FqfTgpWJYmMzzM%252CD4fLe4jFV9ka4M%252C_%253BAYHKnFKDjfkVZM%252CfEZgyUChQPAd3M%252C_%253Bi2MrgZxjNcwITM%252CiRQ_gm_UhH5cPM%252C_%253BGu5OaQUNZi42pM%252CkeXy9yit2NOSbM%252C_%253BLW7TNDyIZfmmKM%252CD4fLe4jFV9ka4M%252C_%253B1TG0lahvpQVtzM%252CyCF3wiIptTAp-M%252C_%253BFzUQJt_xiA9R7M%252C-77ixS5b1R7jPM%252C_%253BBpRJIDH7Ji9ZYM%252CVjvSJAwvq3YiRM%252C_%253Bvw2GC0VIBAp5RM%252CiN77y4wmZvqYyM%252C_%253B7RIHvQbwzhYjSM%252CHdCie9JcbXsBjM%252C_%253Bsh6vaH45LQhPRM%252Cyvme4dCdZg_jiM%252C_%253BjDv9jKjEyXIRAM%252CiRQ_gm_UhH5cPM%252C_%253BoONzIVbVMV-1SM%252C8u1ZDQ962CZ9vM%252C_%253B-hzVhp7ut4AH9M%252C2bEhH8pouGuLrM%252C_%253BCuh_c9uQRNbr3M%252C1_T5L-KHRruL5M%252C_%253Bil23QTuLpJ-jCM%252CnkGq08i2lc9o6M%252C_%253BF4hqTDO1aoAl8M%252Ct5bqFXy8qo-KsM%252C_%253BnESyN7kEN1ShIM%252CpfhdKoPLd0MNWM%252C_&usg=AI4_-kTCTnfbFmsqXeKLI1yBwQyfBh7muQ&ved=2ahUKEwiarcGnkt71AhWmTWwGHXrFBt4Q9QF6BAgbEAE#imgrc=jDv9jKjEyXIRAM"><input type="submit" value="learn more"></a>
+             </div>
+          </div>
+          <div class="box">
+            <img src="https://media.istockphoto.com/photos/everything-is-almost-finished-for-wedding-ceremony-picture-id1161558644?k=20&m=1161558644&s=612x612&w=0&h=V7J3za1qMG52rOiLSCibXCNaalAUkzqVg2OvzFBf_OI="  alt="" width="100%">
+        <div class="info">
+          <h1>Venu Hall Decoration</h1>
+          <p>A wedding  planning and management of a client's wedding Venu Hall Decoration. Weddings are significant events</p>
+          <a href="https://www.google.com/search?q=wedding+reception+hall+decorations+pictures&bih=657&biw=1366&hl=en&sxsrf=APq-WBsmz9cf6RdVrH6LDaJIcGZ05vB3rw:1643706269686&tbm=isch&source=iu&ictx=1&vet=1&fir=qEISY_-Ps6_3AM%252CRvu_W2mlyO5Z6M%252C_%253BfAukBIRfCqRX9M%252C5WlbWF9XCQ_paM%252C_%253BLwVmZViGsM2gKM%252C5WlbWF9XCQ_paM%252C_%253BS2L3MvHZWIsUAM%252CyokdsV70yI5AQM%252C_%253BmyQ-foEVYelEpM%252CSPm8HryNtDr9UM%252C_%253BG3VTnNrnXTLOPM%252CDrG1u6QZkOeO9M%252C_%253BgPGgU8WDY9OH8M%252CY_iTfzE_sR9xpM%252C_%253B9QTxJ7-EM4OJJM%252CC1dSiCAUMO5IJM%252C_%253B9bxTSD0skP4KJM%252C3e12cnIwL0r35M%252C_%253BRhIwhQffi6b77M%252CEDpNsoDB1McIjM%252C_%253BRTYzpe2BnlcERM%252C5WlbWF9XCQ_paM%252C_%253BUfOJFmF0Aae5NM%252CzeZC3kDKZhOo4M%252C_&usg=AI4_-kS-XitHqy8EUSRrhFGiQsvlMjUohA&sa=X&ved=2ahUKEwje5saCk971AhUbSGwGHfzJA-QQ9QF6BAgYEAE#imgrc=fAukBIRfCqRX9M"><input type="submit" value="learn more"></a>
+         </div>
+      </div>
+      <div class="box">
+        <img src="https://media.istockphoto.com/photos/bride-and-groom-dancing-their-first-dance-picture-id1169564701?b=1&k=20&m=1169564701&s=170667a&w=0&h=mmAcJzFHBueErdRoxjOTy67merXXCsOgdp0Q395G58w="  alt="" width="100%">
+        <div class="info">
+        <h1>Music and Party</h1>
+        <p>A wedding planner is a professional who assists with the design, planning and management of a client's wedding. Weddings are significant events</p>
+        <a href="https://www.google.com/search?q=wedding+music+and+party+theme+decor&hl=en&sxsrf=APq-WBth10z018eXAO73RYCzuztmHzGhng:1643706599517&tbm=isch&source=iu&ictx=1&vet=1&fir=EtOlBDbxELSQkM%252Cg7YxEygbvlMl7M%252C_%253BsC-XDYvSHpqzaM%252CAs94PcqN0YFg_M%252C_%253BZkmdXTkgn8Nc9M%252Ch319EMyomqCtZM%252C_%253BYwwqDQx0Xp0a6M%252CHrWTn3QI35wnvM%252C_%253BwSOvsig7nr_ZFM%252CF91vcGvbhgKUdM%252C_%253B_G8u1EACwtBRaM%252C6n7IiCMYIAcg6M%252C_%253BS43GHa7sE7MxzM%252CXaRzdYqLQlfnDM%252C_%253BhOVUwU0OFzGLGM%252ClnPP_kL6O18hKM%252C_%253BkOENT_uUCvJtyM%252CF91vcGvbhgKUdM%252C_%253B0QpQ-XEYMzTC3M%252CaTmgIioR8UwTRM%252C_&usg=AI4_-kQLZF2cSBwAIbn2YlHCq8TtaCksYw&sa=X&ved=2ahUKEwisjOqflN71AhUmS2wGHWeiCa8Q9QF6BAgIEAE#imgrc=_G8u1EACwtBRaM"><input type="submit" value="learn more"></a>
+      </div>
+     </div>
+     <div class="box">
+      <img src="https://media.istockphoto.com/photos/female-wedding-photographer-at-work-picture-id1144489433?k=20&m=1144489433&s=612x612&w=0&h=AuAFIxokhvAUMZ5gkAFzWwH46EG0cHr1Vg4nZ1DwL14="  alt="" width="100%">
+  <div class="info">
+    <h1>Photographer</h1>
+    <p>A wedding planner is a professional who assists with the design, planning and management of a client's wedding. Weddings are significant events</p>
+    <a href="https://www.google.com/search?q=wedding+photography+bride+poses+indian&sa=X&hl=en&sxsrf=APq-WBsVAiqNAlM9HnPqrnDnP7vJBzVuMQ:1643706443507&tbm=isch&source=iu&ictx=1&vet=1&fir=pzbLEpvs3LwqdM%252Ckp2pGhneO78Y5M%252C_%253BHZX8p2Th7olqWM%252C9Kez5oWVgIRDUM%252C_%253BCGewmV1bU_y3WM%252CHzEcqvS96T0fGM%252C_%253BZxilv4f9dkYyHM%252C-yTbxnlE4L64GM%252C_%253BTNy1AHGOlUQcFM%252CwmNBJN6Krp_yUM%252C_%253BP2s6vzpshwy5tM%252CrSGOy57uK-qX7M%252C_%253BrOmz3UTC_yGl1M%252C_BMMDVKfl1k02M%252C_%253By9cjT9hPvxOOxM%252CA8klcNzxRru98M%252C_%253BjE_t-N24CJ-1kM%252ClPhJgXUCLSyEVM%252C_%253BuhBcGzRt2KULwM%252Cu4UIUw49eXjFkM%252C_%253B2ybOseh7mMRkKM%252CLYHWgehDo-ixqM%252C_%253B9P72RjV-HWUroM%252CdqHe7ZZmdB1LNM%252C_%253BFluKiKOY5jXYfM%252CF2318Zr71IWt4M%252C_%253BZg13vXU1LI1JCM%252CHuom3r80JsegxM%252C_%253ByU7uPGggQJkOyM%252CNbUG-5rr4J1IOM%252C_%253Be-msRWlpZfvaPM%252C3hY_9V6BmKImwM%252C_%253BRQtkY0uPAGxriM%252CrSGOy57uK-qX7M%252C_%253Bv8XVq9coR7r7_M%252CRUF5Mpo3iCYvYM%252C_%253BRfwB_bEOoGVUaM%252CeW2Hzcaa90XOfM%252C_&usg=AI4_-kS2L21REqEsgyArm9cfacukSGsbow&ved=2ahUKEwjO7rfVk971AhWeT2wGHR_aBBsQ9QF6BAgfEAE#imgrc=Zxilv4f9dkYyHM"><input type="submit" value="learn more"></a>
+  </div>
+  </div>
+  </div>
+  </section>
+  </body>
+  </html>
