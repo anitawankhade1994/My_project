@@ -1,1 +1,1 @@
-# Wedding planner  https://anitawankhade1994.github.io/My_project/
+# Wedding planner  https://anitawankhade1994.github.io/Wedding-Planner/
